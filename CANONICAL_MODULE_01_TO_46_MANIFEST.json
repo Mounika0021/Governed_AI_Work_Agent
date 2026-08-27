@@ -1,0 +1,313 @@
+{
+  "project": "Governed AI Work Agent",
+  "canonical_module_range": "01-46",
+  "created_at": "2026-08-25T14:16:21.143045",
+  "modules": {
+    "04": {
+      "module": 4,
+      "source_directory": "modules_40_42",
+      "files": [
+        "master_before_module_42_reconstruction.pkl",
+        "module_40_1.pkl",
+        "module_40_2.pkl",
+        "module_40_3.pkl",
+        "module_40_4.pkl",
+        "module_40_5.pkl",
+        "module_40_6.pkl",
+        "module_40_7.pkl",
+        "module_41_1.pkl",
+        "module_41_2.pkl",
+        "module_41_3.pkl",
+        "module_41_4.pkl",
+        "module_41_5.pkl",
+        "module_41_6.pkl",
+        "MODULE_43_TO_46_SOURCE_MANIFEST.txt"
+      ]
+    },
+    "40": {
+      "module": 40,
+      "source_directory": "modules_40_42",
+      "files": [
+        "module_40_1.pkl",
+        "module_40_2.pkl",
+        "module_40_3.pkl",
+        "module_40_4.pkl",
+        "module_40_5.pkl",
+        "module_40_6.pkl",
+        "module_40_7.pkl"
+      ]
+    },
+    "41": {
+      "module": 41,
+      "source_directory": "modules_40_42",
+      "files": [
+        "module_41_1.pkl",
+        "module_41_2.pkl",
+        "module_41_3.pkl",
+        "module_41_4.pkl",
+        "module_41_5.pkl",
+        "module_41_6.pkl"
+      ]
+    },
+    "42": {
+      "module": 42,
+      "source_directory": "modules_40_42",
+      "files": [
+        "master_before_module_42_reconstruction.pkl"
+      ]
+    },
+    "43": {
+      "module": 43,
+      "source_directory": "modules_43_46",
+      "files": [
+        "MODULE_43_TO_46_SOURCE_MANIFEST.txt"
+      ]
+    },
+    "01": {
+      "module": 1,
+      "source_directory": "modules_01_13",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "02": {
+      "module": 2,
+      "source_directory": "modules_01_13",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "03": {
+      "module": 3,
+      "source_directory": "modules_01_13",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "05": {
+      "module": 5,
+      "source_directory": "modules_01_13",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "06": {
+      "module": 6,
+      "source_directory": "modules_01_13",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "07": {
+      "module": 7,
+      "source_directory": "modules_01_13",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "08": {
+      "module": 8,
+      "source_directory": "modules_01_13",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "09": {
+      "module": 9,
+      "source_directory": "modules_01_13",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "10": {
+      "module": 10,
+      "source_directory": "modules_01_13",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "11": {
+      "module": 11,
+      "source_directory": "modules_01_13",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "12": {
+      "module": 12,
+      "source_directory": "modules_01_13",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "13": {
+      "module": 13,
+      "source_directory": "modules_01_13",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "14": {
+      "module": 14,
+      "source_directory": "modules_14_28",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "15": {
+      "module": 15,
+      "source_directory": "modules_14_28",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "16": {
+      "module": 16,
+      "source_directory": "modules_14_28",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "17": {
+      "module": 17,
+      "source_directory": "modules_14_28",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "18": {
+      "module": 18,
+      "source_directory": "modules_14_28",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "19": {
+      "module": 19,
+      "source_directory": "modules_14_28",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "20": {
+      "module": 20,
+      "source_directory": "modules_14_28",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "21": {
+      "module": 21,
+      "source_directory": "modules_14_28",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "22": {
+      "module": 22,
+      "source_directory": "modules_14_28",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "23": {
+      "module": 23,
+      "source_directory": "modules_14_28",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "24": {
+      "module": 24,
+      "source_directory": "modules_14_28",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "25": {
+      "module": 25,
+      "source_directory": "modules_14_28",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "26": {
+      "module": 26,
+      "source_directory": "modules_14_28",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "27": {
+      "module": 27,
+      "source_directory": "modules_14_28",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "28": {
+      "module": 28,
+      "source_directory": "modules_14_28",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "29": {
+      "module": 29,
+      "source_directory": "modules_29_39",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "30": {
+      "module": 30,
+      "source_directory": "modules_29_39",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "31": {
+      "module": 31,
+      "source_directory": "modules_29_39",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "32": {
+      "module": 32,
+      "source_directory": "modules_29_39",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "33": {
+      "module": 33,
+      "source_directory": "modules_29_39",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "34": {
+      "module": 34,
+      "source_directory": "modules_29_39",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "35": {
+      "module": 35,
+      "source_directory": "modules_29_39",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "36": {
+      "module": 36,
+      "source_directory": "modules_29_39",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "37": {
+      "module": 37,
+      "source_directory": "modules_29_39",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "38": {
+      "module": 38,
+      "source_directory": "modules_29_39",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "39": {
+      "module": 39,
+      "source_directory": "modules_29_39",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "44": {
+      "module": 44,
+      "source_directory": "modules_43_46",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "45": {
+      "module": 45,
+      "source_directory": "modules_43_46",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    },
+    "46": {
+      "module": 46,
+      "source_directory": "modules_43_46",
+      "files": [],
+      "representation": "MASTER_OR_CONSOLIDATED_STATE"
+    }
+  }
+}

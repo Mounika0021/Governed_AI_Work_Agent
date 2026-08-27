@@ -1,0 +1,318 @@
+{
+  "project": "Governed AI Work Agent",
+  "modules": {
+    "1": {
+      "checkpoint_files": [],
+      "status": "NOT_FOUND"
+    },
+    "2": {
+      "checkpoint_files": [],
+      "status": "NOT_FOUND"
+    },
+    "3": {
+      "checkpoint_files": [],
+      "status": "NOT_FOUND"
+    },
+    "4": {
+      "checkpoint_files": [],
+      "status": "NOT_FOUND"
+    },
+    "5": {
+      "checkpoint_files": [],
+      "status": "NOT_FOUND"
+    },
+    "6": {
+      "checkpoint_files": [],
+      "status": "NOT_FOUND"
+    },
+    "7": {
+      "checkpoint_files": [],
+      "status": "NOT_FOUND"
+    },
+    "8": {
+      "checkpoint_files": [],
+      "status": "NOT_FOUND"
+    },
+    "9": {
+      "checkpoint_files": [],
+      "status": "NOT_FOUND"
+    },
+    "10": {
+      "checkpoint_files": [],
+      "status": "NOT_FOUND"
+    },
+    "11": {
+      "checkpoint_files": [],
+      "status": "NOT_FOUND"
+    },
+    "12": {
+      "checkpoint_files": [],
+      "status": "NOT_FOUND"
+    },
+    "13": {
+      "checkpoint_files": [],
+      "status": "NOT_FOUND"
+    },
+    "14": {
+      "checkpoint_files": [
+        "module_14.pkl",
+        "module_14_full.pkl",
+        "module_14_full_metadata.json"
+      ],
+      "status": "FOUND"
+    },
+    "15": {
+      "checkpoint_files": [
+        "module_15.pkl",
+        "module_15_metadata.json"
+      ],
+      "status": "FOUND"
+    },
+    "16": {
+      "checkpoint_files": [
+        "module_16.pkl",
+        "module_16_metadata.json"
+      ],
+      "status": "FOUND"
+    },
+    "17": {
+      "checkpoint_files": [
+        "module_17.pkl",
+        "module_17_metadata.json"
+      ],
+      "status": "FOUND"
+    },
+    "18": {
+      "checkpoint_files": [
+        "module_18.pkl",
+        "module_18_metadata.json"
+      ],
+      "status": "FOUND"
+    },
+    "19": {
+      "checkpoint_files": [
+        "module_19.pkl",
+        "module_19_metadata.json"
+      ],
+      "status": "FOUND"
+    },
+    "20": {
+      "checkpoint_files": [
+        "module_20.pkl",
+        "module_20_metadata.json"
+      ],
+      "status": "FOUND"
+    },
+    "21": {
+      "checkpoint_files": [
+        "module_21.pkl",
+        "module_21_metadata.json"
+      ],
+      "status": "FOUND"
+    },
+    "22": {
+      "checkpoint_files": [
+        "module_22.pkl",
+        "module_22_metadata.json"
+      ],
+      "status": "FOUND"
+    },
+    "23": {
+      "checkpoint_files": [
+        "module_23.pkl",
+        "module_23_metadata.json"
+      ],
+      "status": "FOUND"
+    },
+    "24": {
+      "checkpoint_files": [
+        "module_24.pkl",
+        "module_24_metadata.json"
+      ],
+      "status": "FOUND"
+    },
+    "25": {
+      "checkpoint_files": [
+        "module_25.pkl",
+        "module_25_full_resume.pkl",
+        "module_25_full_resume_metadata.json",
+        "module_25_metadata.json"
+      ],
+      "status": "FOUND"
+    },
+    "26": {
+      "checkpoint_files": [
+        "module_26_full_resume.pkl"
+      ],
+      "status": "FOUND"
+    },
+    "27": {
+      "checkpoint_files": [
+        "module_27_full_resume.pkl"
+      ],
+      "status": "FOUND"
+    },
+    "28": {
+      "checkpoint_files": [
+        "module_28_full_resume.pkl"
+      ],
+      "status": "FOUND"
+    },
+    "29": {
+      "checkpoint_files": [],
+      "status": "NOT_FOUND"
+    },
+    "30": {
+      "checkpoint_files": [],
+      "status": "NOT_FOUND"
+    },
+    "31": {
+      "checkpoint_files": [
+        "master_before_module_31_36_reconstruction.pkl",
+        "module_31_full_resume.pkl"
+      ],
+      "status": "FOUND"
+    },
+    "32": {
+      "checkpoint_files": [
+        "module_32_complete.pkl",
+        "module_32_full_resume.pkl",
+        "module_32_step_32_6_state.pkl"
+      ],
+      "status": "FOUND"
+    },
+    "33": {
+      "checkpoint_files": [
+        "module_33_complete.pkl",
+        "module_33_full_resume.pkl"
+      ],
+      "status": "FOUND"
+    },
+    "34": {
+      "checkpoint_files": [
+        "module_34_full_resume.pkl",
+        "module_34_full_resume_copy2.pkl",
+        "module_34_step_34_2_state.pkl",
+        "module_34_step_34_3_state.pkl",
+        "module_34_step_34_4_state.pkl",
+        "module_34_step_34_5_state.pkl",
+        "module_34_step_34_6_state.pkl",
+        "module_34_step_34_7_state.pkl",
+        "module_34_step_34_8_state.pkl",
+        "module_34_step_34_9_state.pkl"
+      ],
+      "status": "FOUND"
+    },
+    "35": {
+      "checkpoint_files": [
+        "master_project_state_pre_module_35_backup.pkl",
+        "module_35_full_resume.pkl",
+        "module_35_full_resume_copy2.pkl",
+        "module_35_step_35_1_state.pkl",
+        "module_35_step_35_2_state.pkl",
+        "module_35_step_35_3_state.pkl",
+        "module_35_step_35_4_state.pkl",
+        "module_35_step_35_5_state.pkl",
+        "module_35_step_35_6_state.pkl",
+        "module_35_step_35_7_state.pkl"
+      ],
+      "status": "FOUND"
+    },
+    "36": {
+      "checkpoint_files": [
+        "master_project_state_pre_module_36_backup.pkl",
+        "module_36_full_resume.pkl",
+        "module_36_full_resume_copy2.pkl"
+      ],
+      "status": "FOUND"
+    },
+    "37": {
+      "checkpoint_files": [
+        "module_37_full_resume.pkl",
+        "module_37_step_1.pkl",
+        "module_37_step_2.pkl",
+        "module_37_step_3.pkl",
+        "module_37_step_4.pkl",
+        "module_37_step_5.pkl",
+        "module_37_step_6.pkl",
+        "module_37_step_7.pkl",
+        "module_37_step_8.pkl"
+      ],
+      "status": "FOUND"
+    },
+    "38": {
+      "checkpoint_files": [
+        "module_38_full_resume.pkl",
+        "module_38_step_1.pkl",
+        "module_38_step_2.pkl",
+        "module_38_step_3.pkl",
+        "module_38_step_4.pkl",
+        "module_38_step_5.pkl",
+        "module_38_step_6.pkl",
+        "module_38_step_7.pkl"
+      ],
+      "status": "FOUND"
+    },
+    "39": {
+      "checkpoint_files": [
+        "module_39_full_resume.pkl",
+        "module_39_step_1.pkl",
+        "module_39_step_2.pkl",
+        "module_39_step_3.pkl",
+        "module_39_step_4.pkl",
+        "module_39_step_5.pkl",
+        "module_39_step_6.pkl",
+        "module_39_step_7.pkl",
+        "module_39_step_8.pkl"
+      ],
+      "status": "FOUND"
+    },
+    "40": {
+      "checkpoint_files": [
+        "module_40_1.pkl",
+        "module_40_2.pkl",
+        "module_40_3.pkl",
+        "module_40_4.pkl",
+        "module_40_5.pkl",
+        "module_40_6.pkl",
+        "module_40_7.pkl"
+      ],
+      "status": "FOUND"
+    },
+    "41": {
+      "checkpoint_files": [
+        "module_41_1.pkl",
+        "module_41_2.pkl",
+        "module_41_3.pkl",
+        "module_41_4.pkl",
+        "module_41_5.pkl",
+        "module_41_6.pkl"
+      ],
+      "status": "FOUND"
+    },
+    "42": {
+      "checkpoint_files": [
+        "master_before_module_42_reconstruction.pkl"
+      ],
+      "status": "FOUND"
+    },
+    "43": {
+      "checkpoint_files": [],
+      "status": "NOT_FOUND"
+    },
+    "44": {
+      "checkpoint_files": [],
+      "status": "NOT_FOUND"
+    },
+    "45": {
+      "checkpoint_files": [],
+      "status": "NOT_FOUND"
+    },
+    "46": {
+      "checkpoint_files": [],
+      "status": "NOT_FOUND"
+    }
+  },
+  "total_modules": 46,
+  "checkpoint_directory": "/content/drive/MyDrive/Governed_AI_Work_Agent_FINAL/checkpoints"
+}
