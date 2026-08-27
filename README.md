@@ -1,15 +1,25 @@
-````markdown
 # ✦ Governed AI Work Agent
 
-> **A governed AI decision-intelligence platform for turning business signals into controlled, explainable and auditable actions.**
+<p align="center">
+  <strong>A governed AI decision-intelligence platform for turning business signals into controlled, explainable, and auditable actions.</strong>
+</p>
+
+<p align="center">
+  <a href="#overview">Overview</a> •
+  <a href="#current-workflow">Workflow</a> •
+  <a href="#architecture">Architecture</a> •
+  <a href="#technology">Technology</a> •
+  <a href="#roadmap">Roadmap</a> •
+  <a href="#getting-started">Getting Started</a>
+</p>
 
 <p align="center">
 
 ![Status](https://img.shields.io/badge/Status-Actively%20Developing-4E5BC6?style=for-the-badge)
 
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
 
-![Streamlit](https://img.shields.io/badge/Streamlit-UI-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-UI-FF4B4B?style=for-the-badge\&logo=streamlit\&logoColor=white)
 
 ![Mode](https://img.shields.io/badge/Mode-Controlled%20Simulation-17663F?style=for-the-badge)
 
@@ -17,53 +27,79 @@
 
 ---
 
-## Overview
+## 📌 Overview
 
-**Governed AI Work Agent** is an evolving AI decision-intelligence platform designed to take a business decision from **context and analysis to recommendation, governance, approval, verification and audit**.
+**Governed AI Work Agent** is an evolving **AI decision-intelligence platform** designed to take a business decision from:
+
+> **Context → Analysis → Recommendation → Governance → Approval → Action → Verification → Audit**
 
 Instead of treating an AI recommendation as an immediately executable instruction, the platform introduces explicit control boundaries around the decision.
 
-```text
-Business Context
-       ↓
-AI Analysis
-       ↓
-Opportunity Discovery
-       ↓
-Recommendation
-       ↓
-Governance
-       ↓
-Approval
-       ↓
-Controlled Action
-       ↓
-Verification
-       ↓
-Outcome
-       ↓
-Audit
-```
+### Core Principle
 
-The current implementation is a working **merchant growth decision workflow** demonstrated through a fictional fitness and nutrition business.
+> **Recommendation ≠ Authorization ≠ Execution**
 
-The platform is intentionally being developed as a foundation that can expand to:
+AI intelligence and operational control are intentionally treated as separate parts of the decision lifecycle.
 
-- multiple merchants
-- multiple industries
-- multiple products
-- related-product discovery
-- customer segmentation
-- richer AI reasoning
-- RAG-backed business knowledge
-- configurable governance policies
-- additional action types
-- broader agent capabilities
-- production-oriented integrations
+The goal is to create AI workflows that are:
+
+* Understandable
+* Reviewable
+* Governed
+* Controlled
+* Verifiable
+* Auditable
+* Extensible
 
 ---
 
-# Product Vision
+# 🧭 Decision Lifecycle
+
+```text
+┌──────────────────────┐
+│   Business Context   │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│     AI Analysis      │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│ Opportunity Discovery│
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│   Recommendation     │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│     Governance       │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│      Approval        │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│  Controlled Action   │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│    Verification      │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│       Outcome        │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│      Audit Trail     │
+└──────────────────────┘
+```
+
+---
+
+# 🎯 Product Vision
 
 The goal is not simply to build an AI system that produces a recommendation.
 
@@ -71,128 +107,134 @@ The goal is to build a system where a recommendation can be:
 
 **understood → reviewed → governed → approved → processed → verified → audited**
 
-A central design principle is:
-
-> **Recommendation ≠ Authorization ≠ Execution**
-
-AI intelligence and operational control are therefore treated as separate parts of the decision lifecycle.
-
-This approach is intended to make AI workflows easier to understand, review, extend and eventually integrate with real-world systems.
+This separation creates a foundation for AI systems that can become increasingly autonomous while still operating inside explicit governance boundaries.
 
 ---
 
-# Current Project Status
+# 🚧 Current Project Status
 
-## 🚧 Actively Developing & Scaling
+### Actively Developing & Scaling
 
 This repository represents a **working development stage**, not the final product.
 
-The current FitFuel Store scenario is the foundation for a larger governed AI platform.
+The current **FitFuel Store** scenario serves as the foundation for a larger governed AI platform.
 
 Development is continuing toward broader capabilities across:
 
-- merchants
-- industries
-- products
-- customer segments
-- recommendations
-- agent workflows
-- business knowledge
-- governance
-- verification
-- auditability
-- integrations
-- scalable execution
+| Area         | Direction                     |
+| ------------ | ----------------------------- |
+| Merchants    | Multiple merchants            |
+| Industries   | Multiple business domains     |
+| Products     | Larger product ecosystems     |
+| Customers    | Richer segmentation           |
+| Intelligence | Advanced AI reasoning         |
+| Agents       | Broader agent workflows       |
+| Knowledge    | RAG-backed business knowledge |
+| Governance   | Configurable policies         |
+| Verification | Stronger validation           |
+| Audit        | Richer observability          |
+| Integrations | External systems              |
+| Scale        | Production-oriented execution |
 
-The current implementation should therefore be viewed as a **working foundation that is continuously being expanded and refined**.
-
----
-
-# Current Workflow
-
-The current application demonstrates a **13-stage governed merchant journey**:
-
-| Stage | Experience |
-|------:|------------|
-| 01 | Welcome |
-| 02 | Merchant Profile |
-| 03 | Business Signals |
-| 04 | AI Reasoning |
-| 05 | Growth Opportunities |
-| 06 | Recommendation Review |
-| 07 | Governance Validation |
-| 08 | Decision Checkpoint |
-| 09 | Controlled Action |
-| 10 | Verification |
-| 11 | Outcome |
-| 12 | Audit Trail |
-| 13 | Executive Summary |
-
-The visible interface is designed around the **business decision journey**, while implementation-specific details remain behind the product experience.
+> The current implementation should be viewed as a **working foundation that is continuously being expanded and refined**.
 
 ---
 
-# Current Demonstration
+# 🏪 Current Demonstration
 
 ## FitFuel Store
 
-The current demonstration uses a fictional merchant operating in the fitness and nutrition space.
+The current demonstration uses a fictional merchant operating in the:
+
+**Fitness & Nutrition · Sports Wellness**
 
 ### Business Profile
 
-**Vertical**
+| Attribute             | Current Value |
+| --------------------- | ------------- |
+| **Primary Product**   | Protein Bar   |
+| **Observed Orders**   | 150           |
+| **Cross-Sell Signal** | High          |
 
-`Fitness & Nutrition · Sports Wellness`
-
-**Primary Product**
-
-`Protein Bar`
-
-**Observed Orders**
-
-`150`
-
-**Cross-Sell Signal**
-
-`High`
-
----
-
-## Customer Profile
+### Customer Profile
 
 The current demonstration represents:
 
-- Fitness-focused customers
-- Nutrition-conscious buyers
-- Workout accessory shoppers
+* Fitness-focused customers
+* Nutrition-conscious buyers
+* Workout accessory shoppers
 
 This customer context is used to frame the opportunity discovery process.
 
 ---
 
-# Product Ecosystem
+# 🔄 Current Workflow
 
-The current workflow demonstrates multiple related product opportunities instead of a single fixed recommendation.
+The application currently demonstrates a **13-stage governed merchant journey**.
 
-| Opportunity | Category | Role | Recommendation Fit |
-|---|---|---|---:|
-| **Shaker Bottle** | Fitness Accessory | Workout Essential | **92%** |
-| **Protein Cookies** | Nutrition | Nutrition Add-on | **87%** |
-| **Gym Towel** | Fitness Accessory | Workout Essential | **81%** |
+|      # | Stage                 |
+| -----: | --------------------- |
+| **01** | Welcome               |
+| **02** | Merchant Profile      |
+| **03** | Business Signals      |
+| **04** | AI Reasoning          |
+| **05** | Growth Opportunities  |
+| **06** | Recommendation Review |
+| **07** | Governance Validation |
+| **08** | Decision Checkpoint   |
+| **09** | Controlled Action     |
+| **10** | Verification          |
+| **11** | Outcome               |
+| **12** | Audit Trail           |
+| **13** | Executive Summary     |
 
-The user can compare opportunities and select one for deeper review.
-
-The long-term direction is to expand from a small controlled product set toward a larger product relationship ecosystem.
+The visible interface is designed around the **business decision journey**, while implementation-specific details remain behind the product experience.
 
 ---
 
-# AI Decision Experience
+# 🛍️ Product Ecosystem
+
+The current workflow demonstrates multiple related-product opportunities instead of a single fixed recommendation.
+
+| Opportunity         | Category          | Role              | Recommendation Fit |
+| ------------------- | ----------------- | ----------------- | -----------------: |
+| **Shaker Bottle**   | Fitness Accessory | Workout Essential |            **92%** |
+| **Protein Cookies** | Nutrition         | Nutrition Add-on  |            **87%** |
+| **Gym Towel**       | Fitness Accessory | Workout Essential |            **81%** |
+
+The user can compare opportunities and select one for deeper review.
+
+### Long-Term Direction
+
+The system is designed to evolve from a small controlled product set toward a larger **product relationship ecosystem**.
+
+Potential relationships include:
+
+```text
+Primary Product
+       │
+       ├── Complementary Products
+       │
+       ├── Related Products
+       │
+       ├── Frequently Purchased Together
+       │
+       ├── Alternative Products
+       │
+       └── Customer Segment Matches
+```
+
+This can eventually evolve into a **product relationship graph**.
+
+---
+
+# 🧠 AI Decision Experience
 
 The current platform contains several layers of decision intelligence.
 
 ## 1. Business Intelligence
 
-Merchant context, customer profile and product information establish the environment in which the agent operates.
+Merchant context, customer profile, and product information establish the environment in which the agent operates.
 
 ## 2. Opportunity Discovery
 
@@ -202,11 +244,11 @@ The system identifies multiple potential opportunities rather than immediately c
 
 Recommendations are evaluated using factors such as:
 
-- Customer fit
-- Category fit
-- Purchase relevance
-- Expected impact
-- Confidence
+* Customer fit
+* Category fit
+* Purchase relevance
+* Expected impact
+* Confidence
 
 ## 4. Recommendation Review
 
@@ -226,15 +268,15 @@ The processed decision is checked against the approved workflow.
 
 ## 8. Auditability
 
-The major stages of the decision are preserved as a traceable journey.
+Major stages of the decision are preserved as a traceable journey.
 
 ---
 
-# Recommendation Intelligence
+# 📊 Recommendation Intelligence
 
 The current recommendation layer demonstrates a structured scoring approach.
 
-For example:
+### Example
 
 ```text
 Customer Fit
@@ -246,98 +288,113 @@ Category Fit
 Purchase Relevance
 █████████████████    90%
 
+────────────────────────────
+
 Overall Recommendation
 ██████████████████   92%
 ```
 
 The intention is to eventually make these factors more dynamic and business-specific.
 
-Future versions may introduce:
+### Planned Improvements
 
-- configurable weights
-- dynamic scoring
-- customer-segment-aware ranking
-- business-specific ranking strategies
-- larger candidate sets
-- product relationship graphs
-- context-aware opportunity discovery
+* Configurable weights
+* Dynamic scoring
+* Customer-segment-aware ranking
+* Business-specific ranking strategies
+* Larger candidate sets
+* Product relationship graphs
+* Context-aware opportunity discovery
 
 ---
 
-# AI Reasoning
+# 💡 AI Reasoning
 
 The system is designed to make recommendations understandable rather than presenting them as unexplained scores.
 
-For example:
+### Example reasoning
 
 > Fitness-focused customers purchasing the primary nutrition product may have strong relevance for complementary workout accessories and adjacent nutrition products.
 
-The long-term goal is to make reasoning progressively more grounded through additional business information, retrieval and agent capabilities.
+The long-term goal is to make reasoning progressively more grounded through:
+
+* Additional business information
+* Retrieval
+* Business knowledge
+* Agent capabilities
 
 ---
 
-# Governance Layer
+# 🛡️ Governance Layer
 
-Governance is intentionally separate from recommendation generation.
+Governance is intentionally separated from recommendation generation.
 
 The governance stage checks conditions such as:
 
-- merchant decision validity
-- recommendation validity
-- policy compliance
-- approval requirements
-- action boundaries
-- execution conditions
+* Merchant decision validity
+* Recommendation validity
+* Policy compliance
+* Approval requirements
+* Action boundaries
+* Execution conditions
 
-The intended control flow is:
+### Governance Flow
 
 ```text
-AI Recommendation
-        ↓
-Governance Validation
-        ↓
-Approval
-        ↓
-Controlled Action
+┌──────────────────────┐
+│  AI Recommendation   │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│ Governance Validation│
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│       Approval       │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│   Controlled Action  │
+└──────────────────────┘
 ```
 
 This creates a clear distinction between:
 
-**what the AI suggests**
+> **What the AI suggests**
 
 and
 
-**what the system is actually allowed to do**
+> **What the system is actually allowed to do**
 
 ---
 
-# Approval Boundary
+# 🔐 Approval Boundary
 
 The system includes an explicit decision checkpoint before action processing.
 
 The approval stage makes the proposed action visible before the workflow progresses.
 
-This separation is important for future expansion toward more complex governance models.
+This separation provides a foundation for future governance models such as:
 
-Potential future approval mechanisms include:
-
-- human approval
-- role-based approval
-- threshold-based approval
-- risk-based approval
-- merchant-specific policies
+* Human approval
+* Role-based approval
+* Threshold-based approval
+* Risk-based approval
+* Merchant-specific policies
 
 ---
 
-# Controlled Execution
+# ⚙️ Controlled Execution
 
 ## Simulation Environment
 
-The current implementation runs in **controlled simulation mode**.
+The current implementation runs in:
+
+> **Controlled Simulation Mode**
 
 No external merchant system is modified during the demonstration.
 
-This allows the entire action lifecycle to be demonstrated safely while keeping real merchant state isolated.
+This allows the complete action lifecycle to be demonstrated safely while keeping real merchant state isolated.
 
 ```text
 Recommendation
@@ -353,22 +410,24 @@ Future versions can introduce real integrations behind explicit execution and au
 
 ---
 
-# Verification
+# ✅ Verification
 
 The workflow includes a dedicated verification stage after the simulated action.
 
 The verification layer checks whether:
 
-- the processed action matches the approved recommendation
-- the authorization path remains intact
-- the action stayed within the permitted boundary
-- the resulting state is suitable for audit
+* The processed action matches the approved recommendation
+* The authorization path remains intact
+* The action stayed within the permitted boundary
+* The resulting state is suitable for audit
 
-The long-term objective is to make verification progressively stronger and more configurable.
+### Long-Term Direction
+
+Verification is expected to become progressively stronger and more configurable as the platform evolves.
 
 ---
 
-# Auditability
+# 🧾 Auditability
 
 The system maintains a traceable decision journey across the major workflow stages.
 
@@ -394,103 +453,109 @@ Outcome
 Audit
 ```
 
-Future audit capabilities are expected to include richer:
+### Future Audit Capabilities
 
-- decision evidence
-- policy results
-- authorization information
-- execution metadata
-- verification results
-- agent reasoning traces
-- observability information
+The platform is expected to capture richer:
+
+* Decision evidence
+* Policy results
+* Authorization information
+* Execution metadata
+* Verification results
+* Agent reasoning traces
+* Observability information
 
 ---
 
-# Architecture Direction
+# 🏗️ Architecture
 
-The project is evolving toward a modular architecture.
+The project is evolving toward a modular architecture where intelligence, governance, execution, verification, and audit responsibilities remain separated.
 
 ```text
-                     ┌──────────────────────┐
-                     │   Merchant Context   │
-                     └──────────┬───────────┘
-                                ↓
-                     ┌──────────────────────┐
-                     │   AI / Agent Layer   │
-                     └──────────┬───────────┘
-                                ↓
-                     ┌──────────────────────┐
-                     │ Opportunity Engine   │
-                     └──────────┬───────────┘
-                                ↓
-                     ┌──────────────────────┐
-                     │ Recommendation Layer │
-                     └──────────┬───────────┘
-                                ↓
-                     ┌──────────────────────┐
-                     │   Governance Layer   │
-                     └──────────┬───────────┘
-                                ↓
-                     ┌──────────────────────┐
-                     │   Approval / Control │
-                     └──────────┬───────────┘
-                                ↓
-                     ┌──────────────────────┐
-                     │   Execution Layer    │
-                     └──────────┬───────────┘
-                                ↓
-                     ┌──────────────────────┐
-                     │    Verification      │
-                     └──────────┬───────────┘
-                                ↓
-                     ┌──────────────────────┐
-                     │   Outcome + Audit    │
-                     └──────────────────────┘
+                    ┌──────────────────────┐
+                    │   Merchant Context   │
+                    └──────────┬───────────┘
+                               ↓
+                    ┌──────────────────────┐
+                    │   AI / Agent Layer   │
+                    └──────────┬───────────┘
+                               ↓
+                    ┌──────────────────────┐
+                    │ Opportunity Engine   │
+                    └──────────┬───────────┘
+                               ↓
+                    ┌──────────────────────┐
+                    │ Recommendation Layer │
+                    └──────────┬───────────┘
+                               ↓
+                    ┌──────────────────────┐
+                    │   Governance Layer   │
+                    └──────────┬───────────┘
+                               ↓
+                    ┌──────────────────────┐
+                    │   Approval / Control │
+                    └──────────┬───────────┘
+                               ↓
+                    ┌──────────────────────┐
+                    │   Execution Layer    │
+                    └──────────┬───────────┘
+                               ↓
+                    ┌──────────────────────┐
+                    │    Verification      │
+                    └──────────┬───────────┘
+                               ↓
+                    ┌──────────────────────┐
+                    │   Outcome + Audit    │
+                    └──────────────────────┘
 ```
 
-The objective is to keep intelligence, governance, execution, verification and audit responsibilities modular as the system scales.
+### Architecture Objective
+
+Keep the following responsibilities modular as the system scales:
+
+**Intelligence · Governance · Execution · Verification · Audit**
 
 ---
 
-# Technology Direction
+# 🧰 Technology
 
 ## Current Interface
 
-- Python
-- Streamlit
-- Git
-- GitHub
+| Technology    | Purpose                    |
+| ------------- | -------------------------- |
+| **Python**    | Application logic          |
+| **Streamlit** | Current UI                 |
+| **Git**       | Version control            |
+| **GitHub**    | Repository & collaboration |
 
 ## Broader Platform Direction
 
-The larger project is being developed around components for:
+The larger platform is being developed around components for:
 
-- AI agent workflows
-- RAG / knowledge retrieval
-- recommendation engines
-- governance
-- execution
-- verification
-- audit / observability
-- backend services
-- models
-- data
-- configuration
-- runtime management
+* AI agent workflows
+* RAG / knowledge retrieval
+* Recommendation engines
+* Governance
+* Execution
+* Verification
+* Audit / observability
+* Backend services
+* Models
+* Data
+* Configuration
+* Runtime management
 
 Additional technologies may be introduced as the architecture evolves.
 
 ---
 
-# Planned Expansion
+# 🌐 Planned Expansion
 
 The current FitFuel Store workflow is intentionally small.
 
 The platform is being developed toward a much larger decision space.
 
 ## Multiple Merchants
-
-The current system uses one demonstration merchant.
 
 Future versions may support:
 
@@ -505,30 +570,30 @@ Electronics
 Sports Equipment
 ```
 
-The objective is to make the decision workflow merchant-agnostic.
+The objective is to make the decision workflow **merchant-agnostic**.
 
 ---
 
-# Multiple Industries
+# 🏢 Multiple Industries
 
 Future scenarios can expand beyond fitness and nutrition into areas such as:
 
-- Retail
-- E-commerce
-- Consumer products
-- Healthcare operations
-- Financial services
-- Travel
-- Hospitality
-- Logistics
-- SaaS
-- Marketplace businesses
+* Retail
+* E-commerce
+* Consumer products
+* Healthcare operations
+* Financial services
+* Travel
+* Hospitality
+* Logistics
+* SaaS
+* Marketplace businesses
 
 The exact industries will depend on future development and validation.
 
 ---
 
-# Multiple Products
+# 📦 Multiple Products
 
 Future versions are expected to support larger product ecosystems rather than a small hard-coded set.
 
@@ -548,27 +613,25 @@ Alternative Products
 Customer Segment Matches
 ```
 
-This can eventually evolve into a product relationship graph.
-
 ---
 
-# Related-Product Discovery
+# 🔎 Related-Product Discovery
 
 A future recommendation engine can move beyond static product lists and identify relationships such as:
 
-- complementary products
-- frequently purchased together
-- alternatives
-- accessories
-- bundles
-- repeat-purchase products
-- segment-specific products
+* Complementary products
+* Frequently purchased together
+* Alternatives
+* Accessories
+* Bundles
+* Repeat-purchase products
+* Segment-specific products
 
 This would allow recommendations to be generated dynamically from a larger product ecosystem.
 
 ---
 
-# Customer Segmentation
+# 👥 Customer Segmentation
 
 Future customer intelligence can include segments such as:
 
@@ -588,40 +651,40 @@ Recommendations can then become increasingly contextual.
 
 ---
 
-# Dynamic Opportunity Ranking
+# 📈 Dynamic Opportunity Ranking
 
 The current demonstration uses a controlled recommendation set.
 
 Future versions are expected to support:
 
-- larger candidate sets
-- configurable scoring
-- dynamic ranking
-- confidence thresholds
-- customer-segment-aware ranking
-- business-specific weighting
-- context-aware opportunities
+* Larger candidate sets
+* Configurable scoring
+* Dynamic ranking
+* Confidence thresholds
+* Customer-segment-aware ranking
+* Business-specific weighting
+* Context-aware opportunities
 
 ---
 
-# RAG / Business Knowledge
+# 📚 RAG & Business Knowledge
 
 A future knowledge layer can allow the agent to reason over information such as:
 
-- merchant policies
-- product catalogs
-- product descriptions
-- business documentation
-- governance policies
-- customer rules
-- historical decision context
-- operational documentation
+* Merchant policies
+* Product catalogs
+* Product descriptions
+* Business documentation
+* Governance policies
+* Customer rules
+* Historical decision context
+* Operational documentation
 
-This would make recommendations more grounded in business-specific knowledge.
+This would make recommendations more grounded in **business-specific knowledge**.
 
 ---
 
-# Agent Capability Expansion
+# 🤖 Agent Capability Expansion
 
 The system can evolve from a guided recommendation workflow toward a broader agent lifecycle:
 
@@ -649,11 +712,9 @@ The intention is to introduce additional agent autonomy while retaining explicit
 
 ---
 
-# Governance Expansion
+# 🛡️ Governance Expansion
 
 As the platform grows, governance can become more configurable.
-
-Potential future capabilities include:
 
 ```text
 Policy
@@ -669,113 +730,124 @@ Permitted Action
 Execution Boundary
 ```
 
-Different merchants, business scenarios and action types may eventually use different governance policies.
+Potential future capabilities include:
+
+* Configurable governance policies
+* Risk classification
+* Multiple approval strategies
+* Role-based authorization
+* Action-level permissions
+* Stronger verification
+* Policy observability
+* Governance analytics
+
+Different merchants, business scenarios, and action types may eventually use different governance policies.
 
 ---
 
-# Additional Action Types
+# ⚡ Additional Action Types
 
 The current demonstration focuses on one controlled merchant-growth workflow.
 
-Future workflows may include areas such as:
+Future workflows may include:
 
-- product promotion recommendations
-- merchandising actions
-- inventory-related decisions
-- customer engagement workflows
-- campaign recommendations
-- operational actions
-- pricing-related decisions
-- business process automation
+* Product promotion recommendations
+* Merchandising actions
+* Inventory-related decisions
+* Customer engagement workflows
+* Campaign recommendations
+* Operational actions
+* Pricing-related decisions
+* Business process automation
 
-Real integrations would require additional security, validation and authorization controls.
+> Real integrations would require additional security, validation, and authorization controls.
 
 ---
 
-# Roadmap
+# 🗺️ Roadmap
 
 ## Phase 1 — Working Decision Experience
 
-- Merchant context
-- Merchant profile
-- Customer context
-- Business signals
-- AI analysis experience
-- Multiple recommendations
-- Recommendation scoring
-- Recommendation comparison
-- Recommendation review
-- Governance
-- Approval checkpoint
-- Controlled simulation
-- Verification
-- Outcome
-- Audit trail
-- Executive summary
-- Streamlit interface
-- GitHub repository
+* [x] Merchant context
+* [x] Merchant profile
+* [x] Customer context
+* [x] Business signals
+* [x] AI analysis experience
+* [x] Multiple recommendations
+* [x] Recommendation scoring
+* [x] Recommendation comparison
+* [x] Recommendation review
+* [x] Governance
+* [x] Approval checkpoint
+* [x] Controlled simulation
+* [x] Verification
+* [x] Outcome
+* [x] Audit trail
+* [x] Executive summary
+* [x] Streamlit interface
+* [x] GitHub repository
 
 ---
 
 ## Phase 2 — Business Expansion
 
-- Multiple merchants
-- Multiple industries
-- Larger product catalogs
-- Related-product discovery
-- Product relationship graph
-- Richer customer segmentation
-- Dynamic opportunity ranking
-- More business scenarios
-- Configurable recommendation factors
-- More merchant-specific contexts
+* [ ] Multiple merchants
+* [ ] Multiple industries
+* [ ] Larger product catalogs
+* [ ] Related-product discovery
+* [ ] Product relationship graph
+* [ ] Richer customer segmentation
+* [ ] Dynamic opportunity ranking
+* [ ] More business scenarios
+* [ ] Configurable recommendation factors
+* [ ] More merchant-specific contexts
 
 ---
 
 ## Phase 3 — Knowledge & Agent Intelligence
 
-- RAG-backed business knowledge
-- Business document retrieval
-- Dynamic agent planning
-- Tool-oriented workflows
-- Evidence-backed reasoning
-- Policy-aware reasoning
-- Explainable decision traces
-- More dynamic workflow orchestration
-- Broader agent capabilities
+* [ ] RAG-backed business knowledge
+* [ ] Business document retrieval
+* [ ] Dynamic agent planning
+* [ ] Tool-oriented workflows
+* [ ] Evidence-backed reasoning
+* [ ] Policy-aware reasoning
+* [ ] Explainable decision traces
+* [ ] More dynamic workflow orchestration
+* [ ] Broader agent capabilities
 
 ---
 
 ## Phase 4 — Governance Expansion
 
-- Configurable governance policies
-- Risk classification
-- Multiple approval strategies
-- Role-based authorization
-- Action-level permissions
-- Stronger verification
-- Policy observability
-- Governance analytics
+* [ ] Configurable governance policies
+* [ ] Risk classification
+* [ ] Multiple approval strategies
+* [ ] Role-based authorization
+* [ ] Action-level permissions
+* [ ] Stronger verification
+* [ ] Policy observability
+* [ ] Governance analytics
 
 ---
 
 ## Phase 5 — Scale & Integration
 
-- Multiple action types
-- Backend service separation
-- Persistent observability
-- External integrations
-- Multi-merchant execution
-- Production-oriented deployment
-- Reliability engineering
-- Monitoring
-- Scalable agent infrastructure
+* [ ] Multiple action types
+* [ ] Backend service separation
+* [ ] Persistent observability
+* [ ] External integrations
+* [ ] Multi-merchant execution
+* [ ] Production-oriented deployment
+* [ ] Reliability engineering
+* [ ] Monitoring
+* [ ] Scalable agent infrastructure
 
 ---
 
-# Repository Structure
+# 📁 Repository Structure
 
-The structure will continue to evolve as capabilities are separated into independent components.
+The repository structure will continue to evolve as capabilities are separated into independent components.
 
 ```text
 Governed_AI_Work_Agent/
@@ -801,19 +873,26 @@ Governed_AI_Work_Agent/
 └── .gitignore
 ```
 
-Runtime state, checkpoints and temporary artifacts are intentionally excluded from source control.
+Runtime state, checkpoints, and temporary artifacts are intentionally excluded from source control.
 
 ---
 
-# Running the Current Demo
+# 🚀 Getting Started
 
-## Install
+## 1. Clone the Repository
+
+```bash
+git clone <your-repository-url>
+cd Governed_AI_Work_Agent
+```
+
+## 2. Install Dependencies
 
 ```bash
 pip install streamlit
 ```
 
-## Run
+## 3. Run the Application
 
 ```bash
 streamlit run app/app.py
@@ -821,13 +900,13 @@ streamlit run app/app.py
 
 The current application runs in:
 
-**Controlled Simulation Mode**
+> **Controlled Simulation Mode**
 
 No external merchant system is modified.
 
 ---
 
-# Development Philosophy
+# 🧪 Development Philosophy
 
 This project is being built around a simple principle:
 
@@ -837,104 +916,136 @@ The goal is not only to make the AI capable of producing useful decisions.
 
 The goal is to make those decisions:
 
-- understandable
-- reviewable
-- controllable
-- verifiable
-- auditable
-- extensible
+| Principle          | Goal                                                                |
+| ------------------ | ------------------------------------------------------------------- |
+| **Understandable** | Users can understand why a decision was proposed                    |
+| **Reviewable**     | Recommendations can be inspected                                    |
+| **Controllable**   | Actions remain within defined boundaries                            |
+| **Verifiable**     | Outcomes can be checked                                             |
+| **Auditable**      | Decision history can be traced                                      |
+| **Extensible**     | New capabilities can be added without redesigning the entire system |
 
 ---
 
-# Why the Project Is Still Developing
+# 🔄 Why the Project Is Still Developing
 
-The current version is intentionally not presented as a finished production platform.
+The current version is intentionally **not presented as a finished production platform**.
 
 The first goal is to establish a reliable governed decision foundation.
 
 The next goal is to increase:
 
-**breadth → intelligence → autonomy → governance → scale**
+```text
+Breadth
+   ↓
+Intelligence
+   ↓
+Autonomy
+   ↓
+Governance
+   ↓
+Scale
+```
 
-That means the current FitFuel workflow is a starting point for a broader system rather than the final scope of the project.
+The current FitFuel workflow is therefore a **starting point for a broader system**, rather than the final scope of the project.
 
 ---
 
-# Current Limitations
+# ⚠️ Current Limitations
 
-This is a development-stage system.
+This is a **development-stage system**.
 
 The current implementation is a controlled demonstration and does not provide production-grade guarantees for:
 
-- authentication
-- authorization infrastructure
-- security hardening
-- distributed execution
-- persistent observability
-- external system safety
-- large-scale deployment
-- production data governance
-- real merchant integrations
+* Authentication
+* Authorization infrastructure
+* Security hardening
+* Distributed execution
+* Persistent observability
+* External system safety
+* Large-scale deployment
+* Production data governance
+* Real merchant integrations
 
 These areas require additional engineering before production use.
 
 ---
 
-# Development Updates
+# 🔮 Development Updates
 
 The repository is expected to evolve continuously.
 
 Future commits may introduce:
 
-- new merchant scenarios
-- new products
-- new product relationships
-- new customer segments
-- new recommendation strategies
-- new agent capabilities
-- RAG and knowledge layers
-- governance policies
-- verification improvements
-- additional action types
-- external integrations
-- infrastructure improvements
+* New merchant scenarios
+* New products
+* New product relationships
+* New customer segments
+* New recommendation strategies
+* New agent capabilities
+* RAG and knowledge layers
+* Governance policies
+* Verification improvements
+* Additional action types
+* External integrations
+* Infrastructure improvements
 
 The README will continue to evolve alongside the system so that the repository reflects the current development stage.
 
 ---
 
-# Project Timeline
+# 📅 Project Timeline
 
-The public repository is intended to document the evolution of the system rather than only its final state.
+The public repository is intended to document the **evolution of the system**, rather than only its final state.
 
 The current version represents:
 
 > **A working foundation under active development toward a broader governed AI platform.**
 
-As the system grows, the repository will progressively document new capabilities, architectural improvements and expanded decision scenarios.
+As the system grows, the repository will progressively document:
+
+* New capabilities
+* Architectural improvements
+* Expanded decision scenarios
+* New agent workflows
+* Governance improvements
+* Integration capabilities
 
 ---
 
-# Author
+# 👩‍💻 Author
 
-**Ravakutam Mounika**
+## Ravakutam Mounika
 
-Robotics & Automation Engineering  
-AI / ML · Computer Vision · AI Applications
+**Robotics & Automation Engineering**
+
+**AI / ML · Computer Vision · AI Applications**
 
 ---
 
-# Disclaimer
+# ⚠️ Disclaimer
 
 This repository currently represents a **development-stage AI demonstration** operating in a controlled simulation environment.
 
-It should not be considered a production merchant decision system without additional security, testing, authorization, monitoring, validation and deployment hardening.
+It should not be considered a production merchant decision system without additional:
+
+* Security
+* Testing
+* Authorization
+* Monitoring
+* Validation
+* Deployment hardening
 
 ---
 
+<p align="center">
+
 ### ✦ Governed AI Work Agent
 
-**From AI recommendation to governed decision.**
+<strong>From AI recommendation to governed decision.</strong>
 
-🚧 **Actively developing. More merchants, products, scenarios, agent capabilities and integrations are planned.**
-````
+<br><br>
+
+🚧 <em>Actively developing — more merchants, products, scenarios, agent capabilities, and integrations are planned.</em>
+
+</p>
